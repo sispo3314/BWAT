@@ -13,6 +13,18 @@ This repository does not include datasets. Please download them from the officia
 - **MHEALTH** dataset is available at https://archive.ics.uci.edu/dataset/319/mhealth+dataset
 - **PAMAP2** dataset is available at https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring
 
+## Requirements
+
+PyTorch 2.3.0 (Python 3.10)
+
+​```bash
+pip install torch==2.3.0
+​```
+
+## Codebase Overview
+
+- [`model.py`](model.py): Implementation of the proposed BWATS architecture, including nested shared-kernel temporal operators, block-wise Gumbel–Softmax routing, deterministic single-operator inference, the input-statistics skip pathway, the cost-aware training objective, and configurations for the independent-kernel and global-routing ablations.
+
 
 ## Citing this Repository
 If you use this code in your research, please cite:
