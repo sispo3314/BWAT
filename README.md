@@ -17,7 +17,7 @@ This repository does not include datasets. Please download them from the officia
 ## Citing this Repository
 If you use this code in your research, please cite:
 ```
-@article{
+@article{BWAT,
   title   = {Block-Wise Conditional Temporal-Scale Allocation for Wearable Human Activity Recognition},
   author  = {Jimin Kim and Myung-Kyu Yi},
   journal = {},
