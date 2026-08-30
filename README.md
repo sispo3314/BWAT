@@ -12,3 +12,30 @@ This repository does not include datasets. Please download them from the officia
 - **MotionSense** dataset is available at https://www.kaggle.com/datasets/malekzadeh/motionsense-dataset
 - **MHEALTH** dataset is available at https://archive.ics.uci.edu/dataset/319/mhealth+dataset
 - **PAMAP2** dataset is available at https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring
+
+
+## Citing this Repository
+If you use this code in your research, please cite:
+```
+@article{ABF-HAR,
+  title   = {Role-Separated Human Activity Recognition with Matched Boundary-Flux Evidence and Group-Specific Statistical Modulation},
+  author  = {Jimin Kim and Myung-Kyu Yi},
+  journal = {},
+  volume  = {},
+  number  = {},
+  pages   = {},
+  year    = {},
+  publisher = {}
+}
+```
+
+
+## License
+This project is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for details.
+
+## Contact
+For questions or issues, please contact:
+  - Jimin Kim: sispo3314@gmail.com
+
+
