@@ -18,7 +18,7 @@ This repository does not include datasets. Please download them from the officia
 If you use this code in your research, please cite:
 ```
 @article{ABF-HAR,
-  title   = {Role-Separated Human Activity Recognition with Matched Boundary-Flux Evidence and Group-Specific Statistical Modulation},
+  title   = {Block-Wise Conditional Temporal-Scale Allocation for Wearable Human Activity Recognition},
   author  = {Jimin Kim and Myung-Kyu Yi},
   journal = {},
   volume  = {},
