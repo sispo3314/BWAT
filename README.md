@@ -1,6 +1,6 @@
-# Block-Wise Conditional Temporal-Scale Allocation for Wearable Human Activity Recognition
+# Block-Wise Adaptive Temporal-Scale Allocation for Wearable Human Activity Recognition
 <img width="2752" height="1141" alt="image" src="https://github.com/user-attachments/assets/319e3a7a-74a1-4acb-bd34-db21fa632417" />
-This repository implements the methodology proposed in the paper "Block-Wise Conditional Temporal-Scale Allocation for Wearable Human Activity Recognition"
+This repository implements the methodology proposed in the paper "Block-Wise Adaptive Temporal-Scale Allocation for Wearable Human Activity Recognition"
 
 ## Paper Overview
 
@@ -30,7 +30,7 @@ pip install torch==2.3.0
 If you use this code in your research, please cite:
 ```
 @article{BWAT,
-  title   = {Block-Wise Conditional Temporal-Scale Allocation for Wearable Human Activity Recognition},
+  title   = {Block-Wise Adaptive Temporal-Scale Allocation for Wearable Human Activity Recognition},
   author  = {Jimin Kim and Myung-Kyu Yi},
   journal = {},
   volume  = {},
