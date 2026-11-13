@@ -28,7 +28,7 @@ pip install torch==2.3.0
   - `cnn.py`: 1D CNN baseline
   - `cnn_lstm.py`: CNN + bidirectional LSTM baseline
   - `transformer.py`: Transformer encoder baseline
-  - `mamba.py`: Mamba-style selective state-space model baseline (portable PyTorch implementation, not the official `mamba_ssm` CUDA kernel)
+  - `mamba.py`: Mamba-style selective state-space model baseline
 - `ConfusionMatrix/`: Full-resolution versions of the confusion matrices shown in Fig. 2 for UCI-HAR, MHEALTH, and PAMAP2, provided for readability.
 
 ## Citing this Repository
