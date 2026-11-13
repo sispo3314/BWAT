@@ -24,7 +24,12 @@ pip install torch==2.3.0
 ## Codebase Overview
 
 - [`model.py`](model.py): Implementation of the proposed BWATS architecture, including nested shared-kernel temporal operators, block-wise Gumbel–Softmax routing, deterministic single-operator inference, the input-statistics skip pathway, the cost-aware training objective, and configurations for the independent-kernel and global-routing ablations.
-
+- `Comparison/`: Parameter-matched baseline models used in the comparison experiments (~258K parameters, matched to BWATS on UCI-HAR). Each file contains only the model definition.
+  - `cnn.py`: 1D CNN baseline
+  - `cnn_lstm.py`: CNN + bidirectional LSTM baseline
+  - `transformer.py`: Transformer encoder baseline
+  - `mamba.py`: Mamba-style selective state-space model baseline (portable PyTorch implementation, not the official `mamba_ssm` CUDA kernel)
+- `ConfusionMatrix/`: Full-resolution versions of the confusion matrices shown in Fig. 2 for UCI-HAR, MHEALTH, and PAMAP2, provided for readability.
 
 ## Citing this Repository
 If you use this code in your research, please cite:
